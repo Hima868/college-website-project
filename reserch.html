@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD College - Research</title>
+    <style>
+        /* Reset margin, padding and box-sizing for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 16px 24px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: rgb(128, 213, 237);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            font-size: 32px;
+            color: #007BFF;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+            color: #555;
+        }
+
+        .research-topics {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .research-topic {
+            background-color: #abe0ff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .research-topic:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .research-topic h3 {
+            font-size: 24px;
+            color: #007BFF;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SD College - Research</h1>
+    </header>
+
+    <nav>
+        <a href="about.html">About Us</a>
+        <a href="reserch.html">Research</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <h2>About SD College</h2>
+            <p>SD College is a leading institution focused on research and innovation. With state-of-the-art facilities and a strong academic foundation, we are committed to advancing knowledge across a range of disciplines. Our researchers collaborate with institutions worldwide, contributing to groundbreaking discoveries.</p>
+        </section>
+
+        <!-- Research Section -->
+        <section class="section" id="research">
+            <h2>Our Research Areas</h2>
+            <p>At SD College, we engage in research across various fields. Our research departments are dedicated to solving real-world problems, developing new technologies, and expanding academic knowledge. Here are some of the main areas of research:</p>
+
+            <!-- Research Topics Grid -->
+            <div class="research-topics">
+                <div class="research-topic">
+                    <h3>Artificial Intelligence</h3>
+                    <p>Our AI research focuses on machine learning, neural networks, and automation. We aim to create intelligent systems that can enhance various industries, from healthcare to transportation.</p>
+                </div>
+                <div class="research-topic">
+                    <h3>Environmental Sustainability</h3>
+                    <p>We explore sustainable solutions to address climate change. Our research includes renewable energy, waste management, and biodiversity preservation.</p>
+                </div>
+                <div class="research-topic">
+                    <h3>Biomedical Engineering</h3>
+                    <p>Our biomedical engineers work on cutting-edge technologies to improve healthcare. Research includes medical imaging, prosthetics, and gene therapy.</p>
+                </div>
+                <div class="research-topic">
+                    <h3>Cybersecurity</h3>
+                    <p>Our cybersecurity research is dedicated to protecting digital assets. We develop encryption techniques, identify vulnerabilities, and create secure systems.</p>
+                </div>
+                <div class="research-topic">
+                    <h3>Social Sciences</h3>
+                    <p>Research in the social sciences at SD College examines human behavior, social structures, and public policy. We aim to make positive impacts on society.</p>
+                </div>
+                <div class="research-topic">
+                    <h3>Robotics</h3>
+                    <p>Our robotics research focuses on automation, humanoid robots, and autonomous vehicles, pushing the boundaries of technology in engineering and manufacturing.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <h2>Contact Us</h2>
+            <p>For more information on our research initiatives or if you would like to collaborate with us, please contact us at:</p>
+            <p>Email: research@SDcollege.edu</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SD College - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+    width:460px;
+    position: relative;
+    left: 400px;
+    top:100px;
+    background-color: black;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 254);
+}
+
+table{
+    font-size: larger;
+    border: 1px solid black;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+td,tr{
+    background-color: bisque;
+  border: 1px solid rebeccapurple;  
+   }
+   table:hover{
+    background-color: coral;
+   }
+   td:hover{
+    background-color: yellowgreen;
+   }
+   

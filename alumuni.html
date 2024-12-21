@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD College - Alumni</title>
+    <style>
+        /* Reset margin, padding and box-sizing for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #71b2f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #fbfdff;
+            color: rgb(0, 0, 0);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #007bff;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: bisque;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .section h2 {
+            font-size: 32px;
+            color: #0056b3;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+            color: #555;
+        }
+
+        .alumni-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .alumni-profile {
+            background-color: azure;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .alumni-profile:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .alumni-profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .alumni-profile h3 {
+            font-size: 22px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .alumni-profile p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SD College Alumni</h1>
+    </header>
+
+    <nav>
+        <a href="about.html">About Us</a>
+        <a href="#alumni">Alumni</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Alumni Section -->
+        <section class="section" id="alumni">
+            <h2>Our Proud Alumni</h2>
+            <p>At SD College, our alumni are an integral part of our community. They have gone on to achieve great things in various fields, and we are proud of their accomplishments. Our alumni network provides valuable connections, mentorship, and opportunities for current students. Here are some of our distinguished alumni:</p>
+
+            <!-- Alumni Grid -->
+            <div class="alumni-grid">
+
+                <div class="alumni-profile">
+                    <img src="c:\Users\dell\Downloads\images (5).jfif" alt="Alumni 1">
+                    <h3>AMAN KUMAR</h3>
+                    <p>CEO, Tech Solutions</p>
+                    <p>Class of 2020 - Computer Science</p>
+                </div>
+
+                <div class="alumni-profile">
+                    <img src="c:\Users\dell\Downloads\images (6).jfif" alt="Alumni 2">
+                    <h3>KHUSHI</h3>
+                    <p>MBA Researcher, PHD</p>
+                    <p>Class of 2022 - Biomedical Engineering</p>
+                </div>
+
+                <div class="alumni-profile">
+                    <img src="c:\Users\dell\Downloads\images (7).jfif" alt="Alumni 3">
+                    <h3>ALOK KUMAR</h3>
+                    <p>Director of Marketing, Global Brand</p>
+                    <p>Class of 2015 - Business Administration</p>
+                </div>
+
+                <div class="alumni-profile">
+                    <img src="c:\Users\dell\Downloads\images (8).jfif" alt="Alumni 4">
+                    <h3>TANU</h3>
+                    <p>Lead Researcher, Pharma Solutions</p>
+                    <p>Class of 2014 - Pharmaceutical Sciences</p>
+                </div>
+
+                <div class="alumni-profile">
+                    <img src="c:\Users\dell\Downloads\images (9).jfif" alt="Alumni 5">
+                    <h3>David Williams</h3>
+                    <p>Software Engineer, Code Innovators</p>
+                    <p>Class of 2017 - Computer Science</p>
+                </div>
+
+                <div class="alumni-profile">
+                    <img src="c:\Users\dell\Downloads\4284_Sep21_Venkat-Student-Story-Blog-Feature.jpg" alt="Alumni 6">
+                    <h3>Amy Lee</h3>
+                    <p>Architect, Urban Designs</p>
+                    <p>Class of 2016 - Architecture</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <h2>Contact Us</h2>
+            <p>If you're an alumnus and want to get involved or share your story, feel free to reach out to us:</p>
+            <p>Email: alumni@SDcollege.edu</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SD College - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
